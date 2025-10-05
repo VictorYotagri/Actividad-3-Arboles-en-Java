@@ -107,3 +107,17 @@ public class Main{
                 } else {
                     System.out.println("El número " + numeroBuscar + " no existe en el árbol.");
                 }
+
+            } else if (opcion == 4) {
+                //opción 4 Salir
+                System.out.println("Se ha cerrado el programa");
+
+            } else {
+                //opción inválida
+                System.out.println("Opcion invalida. Por favor seleccione una opcion del 1 al 4.");
+            }
+        }
+
+        scanner.close();
+    }
+}
